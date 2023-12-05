@@ -22,13 +22,21 @@ import { faSatellite } from '@fortawesome/pro-light-svg-icons/faSatellite'
 import { faTelescope } from '@fortawesome/pro-light-svg-icons/faTelescope'
 import { faUserAstronaut } from '@fortawesome/pro-light-svg-icons/faUserAstronaut'
 import { faUserCircle } from '@fortawesome/pro-light-svg-icons/faUserCircle'
+import useAISuggestions from '../../hooks/use-ai-suggestions'
 
 import './styles.css';
 
 const Header = () => {
+  const { suggestion, loading, getSuggestion} = useAISuggestions()
+
   return (
     <HcStructure>
       <HcStructureHeader slot="header">
+        <HcButton slot="actions-start" variation="tertiary" context="neutral" 
+          disabled={loading}
+          onClick={() => getSuggestion('recomende um produto hotmart')}>
+          Get a suggestion
+        </HcButton>
         <HcButton slot="actions-end" variation="tertiary" context="neutral" size="large">
           <div slot="icon">
             <FontAwesomeIcon icon={faBell} />
@@ -161,9 +169,11 @@ const Header = () => {
       <HcStructureContent slot="content">
         {/* <HcContainer> <HcH> <HcP> it's not a part of the structure. Added for demonstration purpose only. */}
         <HcContainer>
-          <HcH type="h1">My app</HcH>
-          <HcP>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eaque beatae quam ab tempore, iusto mollitia reiciendis excepturi esse iste ducimus iure eum ut quaerat, perspiciatis nesciunt rerum ea laudantium.</HcP>
-          <HcP>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eaque beatae quam ab tempore, iusto mollitia reiciendis excepturi esse iste ducimus iure eum ut quaerat, perspiciatis nesciunt rerum ea laudantium.</HcP>
+          <HcH type="h1">Suggestion</HcH>
+          {loading ? 
+            <HcP>Loading...</HcP> : 
+            <HcP>{suggestion || 'No suggestion available'}</HcP>
+          }
         </HcContainer>
       </HcStructureContent>
     </HcStructure>
