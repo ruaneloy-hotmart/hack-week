@@ -1,0 +1,6 @@
+/* style.css */
+
+body {
+  /* --hc-container-padding it's not a part of the structure. Added for demonstration purpose only.  */
+  --hc-container-padding: 3rem;
+}
