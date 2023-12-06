@@ -4,12 +4,12 @@ import {
   HcStructureMenu,
   HcStructureMenuItem,
   HcStructureContent
-} from "@hotmart-org-ca/cosmos-web/dist/react/hc-structure";
+} from "@hotmart/cosmos-web/dist/react/hc-structure";
 
-import { HcButton } from "@hotmart-org-ca/cosmos-web/dist/react/hc-button";
-import { HcContainer } from "@hotmart-org-ca/cosmos-web/dist/react/hc-container";
-import { HcH } from "@hotmart-org-ca/cosmos-web/dist/react/hc-h";
-import { HcP } from "@hotmart-org-ca/cosmos-web/dist/react/hc-p";
+import { HcButton } from "@hotmart/cosmos-web/dist/react/hc-button";
+import { HcContainer } from "@hotmart/cosmos-web/dist/react/hc-container";
+import { HcH } from "@hotmart/cosmos-web/dist/react/hc-h";
+import { HcP } from "@hotmart/cosmos-web/dist/react/hc-p";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBell } from '@fortawesome/pro-light-svg-icons/faBell'

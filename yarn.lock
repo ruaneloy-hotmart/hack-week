@@ -395,18 +395,18 @@
   dependencies:
     prop-types "^15.8.1"
 
-"@hotmart-org-ca/cosmos-tokens@^0.1.1":
-  version "0.1.1"
-  resolved "https://hotmart-artifacts-315120000506.d.codeartifact.us-east-1.amazonaws.com/npm/npm/@hotmart-org-ca/cosmos-tokens/-/cosmos-tokens-0.1.1.tgz#e18e75e6caad87069ba7823a95778d3e859ff1e1"
-  integrity sha512-QQdATirM3bOp6qUPLooyRyQ6P4DW+7HgctF5LTOX+gnFjPmO8/AWgmluCKIH/uIfqHOZ5Py/bXB7TCD26UDjSA==
+"@hotmart/cosmos-tokens@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@hotmart/cosmos-tokens/-/cosmos-tokens-0.1.0.tgz#16a12c7cd1856053c57ae7cf99a1714b49860fdf"
+  integrity sha512-SYJ6XK5y7pnV3lohpfdXxs8EJWvIcdPSkIELz6nSrgI6jTepWagEXihsJ3WtPYjFUUWdJo79IOFTzbqaVj4ogw==
 
-"@hotmart-org-ca/cosmos-web@^2.10.2":
-  version "2.10.2"
-  resolved "https://hotmart-artifacts-315120000506.d.codeartifact.us-east-1.amazonaws.com/npm/npm/@hotmart-org-ca/cosmos-web/-/cosmos-web-2.10.2.tgz#a5341d4c370c3336a8617beeece0244357c6dbeb"
-  integrity sha512-UjARqszEmGZMFcERNY0UuaNcY26HZxIHRjOCuOWXrpJyIoCdMKT82uo5rIcHXzIMlsyxiqg1rY7TMYuNG4IxWg==
+"@hotmart/cosmos-web@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@hotmart/cosmos-web/-/cosmos-web-2.6.0.tgz#35d4c15de997bb18a522465cb4334775b0865f00"
+  integrity sha512-0v1R3td6xBGmuHbYByq/wjpRlUCDogGdwA37IV5XCUPVJmp9sMGy/xYTUna6WqYQ1J/7HBPifVrFmrlx5HH2lQ==
   dependencies:
-    "@stencil/core" "3.2.2"
-    "@stencil/sass" "3.0.2"
+    "@stencil/core" "^2.13.0"
+    "@stencil/sass" "^1.5.2"
 
 "@humanwhocodes/config-array@^0.11.13":
   version "0.11.13"
@@ -540,15 +540,15 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.6.1.tgz#45785b5caf83200a34a9867ba50d69560880c120"
   integrity sha512-0zfTlFAIhgz8V2G8STq8toAjsYYA6eci1hnXuyOTUFnymrtJwnS6uGKiv3v5UrPZkBlamLvrLV2iiaeqCKzb0A==
 
-"@stencil/core@3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-3.2.2.tgz#cf3b4ffb7992d0197aa1987dbc5236c4eb98cb6b"
-  integrity sha512-wXb9cVWL0T3cTwYLveekdTFCRGx6+9hpVDEXna+N8K8OPoW6xtFAHRLv+LjOM7k59PkA8MG3IinAfV7Y+xa0Hw==
+"@stencil/core@^2.13.0":
+  version "2.22.3"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.22.3.tgz#83987e20bba855c450f6d6780e3a20192603f13f"
+  integrity sha512-kmVA0M/HojwsfkeHsifvHVIYe4l5tin7J5+DLgtl8h6WWfiMClND5K3ifCXXI2ETDNKiEk21p6jql3Fx9o2rng==
 
-"@stencil/sass@3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@stencil/sass/-/sass-3.0.2.tgz#d341b404e21ebd896f177df1576ac67c2bfdc829"
-  integrity sha512-T8hQreosCjZ6yZ7wJgZBrA1ytL4JMluY1dX6S1a/YgXclanvncvk6nGEpxRVVwRAvtkru0F5Qs+oheiL8nifRA==
+"@stencil/sass@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@stencil/sass/-/sass-1.5.2.tgz#861dffe90a8d911b6b2af4a36d8928b5264a8646"
+  integrity sha512-nJ93pUSylsGsMX0eLmhxh1oEljcUjj5mYjhB9ziCdoaydAdjukrUoqDCC7tdVbOcBo2hKptQyWqCtETnBGYsXQ==
 
 "@types/babel__core@^7.20.5":
   version "7.20.5"
