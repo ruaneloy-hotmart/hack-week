@@ -1,5 +1,5 @@
 import OpenAI from "openai";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 
 const API_KEY = ''
 
