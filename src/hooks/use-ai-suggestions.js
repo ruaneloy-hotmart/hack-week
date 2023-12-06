@@ -1,7 +1,7 @@
 import OpenAI from "openai";
 import { useCallback, useEffect, useState } from "react";
 
-const API_KEY = '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'
+const API_KEY = ''
 
 const client = new OpenAI({
   apiKey: API_KEY,
